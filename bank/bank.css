@@ -1,0 +1,119 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    position: relative;
+    display: grid;
+    justify-items: center;
+    align-content: center;
+    min-height: 100vh;
+}
+h1
+{
+    font-size: 50px;
+}
+.container
+{
+    position: relative;
+    display: grid;
+    grid-row-gap: 100px;
+    width: 70%;
+    justify-items: center;
+    align-content: space-around;
+    margin-top: 50px;
+}
+.container .showcase
+{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+.container .showcase .input-box
+{
+    width: 300px;
+    height: 150px;
+    background: #3A8891;
+    border-radius: 10px;
+    display: grid;
+    justify-items: center;
+    align-content: center;
+}
+.container .showcase .input-box:nth-child(2)
+{
+    background: tomato;
+}
+.container .showcase .input-box:nth-child(3)
+{
+    background: #2ed573;
+}
+.container .showcase .input-box h2
+{
+    color: #fff;
+    font-size: 2.5em;
+}
+.container .showcase .input-box h4
+{
+    color: #fff;
+    font-size: 1.1em;
+}
+.container .button-box
+{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+.container .button-box .button
+{
+    position: relative;
+    height: 200px;
+    width: 400px;
+    display: grid;
+    justify-items: center;
+    align-content: center;
+    background: #118ab2;
+    border-radius: 10px;
+}
+.container .button-box .button:nth-child(2){
+    background-color: #ff7675;
+}
+.container .button-box .button label
+{
+    font-size: 2em;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.container .button-box .button input
+{
+    width: 90%;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    padding-bottom: 7px;
+    height: 20px;
+    color: #fff;
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom: 1px solid #000;
+    text-align: center;
+}
+.container .button-box .button button
+{
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background: #ff7675;
+    color: #fff;
+    cursor: pointer;   
+}
+.container .button-box .button #withdraw-button
+{
+    background: #118ab2;
+}

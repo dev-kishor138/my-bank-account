@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Bank Account</title>
+    <link rel="stylesheet" href="bank.css">
+</head>
+<body>
+    <h1>Welcome to My Bank</h1>
+    <div class="container">
+        <div class="showcase">
+            <div class="input-box">
+                <h2>$<span id="deposit-amount">00</span></h2>
+                <h4>Deposit</h4>
+            </div>
+            <div class="input-box">
+                <h2>$<span id="withdraw-amount">00</span></h2>
+                <h4>Withdraw</h4>
+            </div>
+            <div class="input-box">
+                <h2>$<span id="balance">10000</span></h2>
+                <h4>Balance</h4>
+            </div>
+        </div>
+        <div class="button-box">
+            <div class="button">
+                    <label>Deposit</label>
+                    <input id="deposit-input" type="text">
+                    <button id="deposit-button">Deposit</button>
+            </div>
+            <div class="button">
+                    <label>Withdraw</label>
+                    <input id="withdraw-input" type="text">
+                    <button id="withdraw-button">Withdraw</button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="bank.js"></script>
+</body>
+</html>
